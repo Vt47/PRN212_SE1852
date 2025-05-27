@@ -67,7 +67,7 @@ foreach (var e in employees)
 {
     Console.WriteLine(e);
 }
-
+//hello
 //cau 3:sap xep nhan vien theo nam sinh tang dan
 for (int i = 0; i < employees.Count; i++)
 {
