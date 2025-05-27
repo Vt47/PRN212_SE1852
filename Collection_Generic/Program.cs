@@ -139,7 +139,7 @@ static void SortEmployees(List<Employee> employees)
 
 
 //câu 4: sửa thông tin nhân viên
-  static void EditEmployee(List<Employee> employees)
+static void EditEmployee(List<Employee> employees)
 {
     Console.WriteLine("\n=== Sửa thông tin nhân viên ===");
     Console.Write("Nhập mã nhân viên cần sửa: ");
@@ -158,6 +158,16 @@ static void SortEmployees(List<Employee> employees)
             if (DateTime.TryParse(Console.ReadLine(), out DateTime birthday))
             {
                 employeeToEdit.Birthday = birthday;
+            }
+
+            // Kiểm tra nếu là nhân viên part-time thì cho phép sửa số giờ làm
+            if (employeeToEdit is ParttimeEmployee parttimeEmployee)
+            {
+                Console.Write("Nhập số giờ làm mới: ");
+                if (int.TryParse(Console.ReadLine(), out int workingHours))
+                {
+                    parttimeEmployee.WorkingHour = workingHours;
+                }
             }
 
             Console.WriteLine("Đã cập nhật thông tin thành công!");
