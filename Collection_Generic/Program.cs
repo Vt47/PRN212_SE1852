@@ -59,7 +59,7 @@ ParttimeEmployee pe1 = new ParttimeEmployee()
 };
 employees.Add(pe1);
 
-// Menu system
+
 while (true)
 {
     Console.WriteLine("\n=== MENU QUẢN LÝ NHÂN VIÊN ===");
@@ -105,8 +105,7 @@ while (true)
 
 
 
-//cau 2: xua toan bo nhan vien
-Console.OutputEncoding=Encoding.UTF8;
+//cau 2: xua toan bo nhan vie
 Console.WriteLine("thong tin toan bo nhan su: ");
 employees.ForEach(e => Console.WriteLine(e));
 
@@ -160,7 +159,7 @@ static void EditEmployee(List<Employee> employees)
                 employeeToEdit.Birthday = birthday;
             }
 
-            // Kiểm tra nếu là nhân viên part-time thì cho phép sửa số giờ làm
+            
             if (employeeToEdit is ParttimeEmployee parttimeEmployee)
             {
                 Console.Write("Nhập số giờ làm mới: ");
@@ -213,10 +212,10 @@ static void DeleteEmployee(List<Employee> employees)
     }
 }
 
-// Gọi hàm xóa nhân viên
+
 DeleteEmployee(employees);
 
-// Hiển thị danh sách sau khi xóa
+
 Console.WriteLine("\nDanh sách nhân viên sau khi xóa:");
 employees.ForEach(e => Console.WriteLine(e));
 
