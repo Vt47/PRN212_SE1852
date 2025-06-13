@@ -1,0 +1,44 @@
+﻿<Window x:Class="ButtonControl_TongHop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ButtonControl_TongHop"
+        mc:Ignorable="d"
+        Title="Tổng 2 số" Height="200" Width="300">
+
+    <StackPanel>
+        <!-- Nhập số a -->
+        <Label Target="{Binding ElementName=txtA}">Hệ Số _a:</Label>
+        <TextBox Name="txtA" />
+
+        <!-- Nhập số b -->
+        <Label Target="{Binding ElementName=txtB}">Hệ Số _b:</Label>
+        <TextBox Name="txtB" />
+
+        <!-- Hiển thị kết quả -->
+        <TextBlock>Kết quả:</TextBlock>
+        <TextBlock Name="tbKetQua" Background="Yellow" />
+
+        <!-- Các nút chức năng -->
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+
+            <!-- Nút Tính Tổng -->
+            <Button Name="btnTong" Width="100" Margin="10" Click="BtnTong_Click">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="C:\Users\havie\source\repos\PRN212_SE1852\Control1\Images\sum.png" />
+                    <TextBlock Margin="5,0">Tổng</TextBlock>
+                </StackPanel>
+            </Button>
+
+            <!-- Nút Thoát -->
+            <Button Name="btnThoat" Width="100" Margin="10" Click="BtnThoat_Click">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="C:\Users\havie\source\repos\PRN212_SE1852\Control1\Images\thoat.png" />
+                    <TextBlock Margin="5,0">Thoát</TextBlock>
+                </StackPanel>
+            </Button>
+
+        </StackPanel>
+    </StackPanel>
+</Window>
