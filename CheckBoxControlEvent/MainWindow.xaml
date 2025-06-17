@@ -1,0 +1,30 @@
+﻿<Window x:Class="CheckBoxControlEvent.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="CheckBox Sự Kiện" Height="185" Width="244">
+    <StackPanel Margin="20">
+        <Label Content="Bạn thích những gì?" />
+        <CheckBox Name="chkToanBo"
+                  Content="Thích toàn bộ hoạt động"
+                  Checked="ChkToanBo_Checked"
+                  Unchecked="ChkToanBo_Unchecked"/>
+        <StackPanel Margin="20,0,0,0">
+            <CheckBox Name="chkCongNghe"
+                      Content="Thích nghiên cứu công nghệ"
+                      Checked="chkSub_CheckedChanged"
+                      Unchecked="chkSub_CheckedChanged"/>
+            <CheckBox Name="chkDuLich"
+                      Content="Thích đi du lịch"
+                      Checked="chkSub_CheckedChanged"
+                      Unchecked="chkSub_CheckedChanged"/>
+            <CheckBox Name="chkDaBong"
+                      Content="Thích đá bóng"
+                      Checked="chkSub_CheckedChanged"
+                      Unchecked="chkSub_CheckedChanged"/>
+            <CheckBox Name="chkXemPhim"
+                      Content="Thích xem phim"
+                      Checked="chkSub_CheckedChanged"
+                      Unchecked="chkSub_CheckedChanged"/>
+        </StackPanel>
+    </StackPanel>
+</Window>

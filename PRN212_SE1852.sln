@@ -67,6 +67,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWpfApp", "HelloWpfApp\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ButtonControl_TongHop", "ButtonControl_TongHop\ButtonControl_TongHop.csproj", "{BA5076E6-A4E1-48D2-B591-3F53F1293213}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckBoxControlEvent", "CheckBoxControlEvent\CheckBoxControlEvent.csproj", "{92B18AED-8660-45CC-B3D2-8E2EF25D79A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioButtonControl", "RadioButtonControl\RadioButtonControl.csproj", "{92419740-E53A-41DA-BD3F-34495BB28E71}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -189,6 +193,14 @@ Global
 		{BA5076E6-A4E1-48D2-B591-3F53F1293213}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA5076E6-A4E1-48D2-B591-3F53F1293213}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA5076E6-A4E1-48D2-B591-3F53F1293213}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92B18AED-8660-45CC-B3D2-8E2EF25D79A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92B18AED-8660-45CC-B3D2-8E2EF25D79A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92B18AED-8660-45CC-B3D2-8E2EF25D79A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92B18AED-8660-45CC-B3D2-8E2EF25D79A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92419740-E53A-41DA-BD3F-34495BB28E71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92419740-E53A-41DA-BD3F-34495BB28E71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92419740-E53A-41DA-BD3F-34495BB28E71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92419740-E53A-41DA-BD3F-34495BB28E71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -206,6 +218,8 @@ Global
 		{9213A558-86A6-40DA-81C4-F525D30EB42B} = {AA9262A9-F0A3-4576-8372-3FFF41A19B0A}
 		{A4B658DA-91F5-4C85-9BFC-27A4DAC61264} = {47AF8297-3A22-47EF-8BB8-AA3CF59ED300}
 		{BA5076E6-A4E1-48D2-B591-3F53F1293213} = {47AF8297-3A22-47EF-8BB8-AA3CF59ED300}
+		{92B18AED-8660-45CC-B3D2-8E2EF25D79A1} = {47AF8297-3A22-47EF-8BB8-AA3CF59ED300}
+		{92419740-E53A-41DA-BD3F-34495BB28E71} = {47AF8297-3A22-47EF-8BB8-AA3CF59ED300}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6D688E67-4B30-465D-AC7E-C0AB45903767}

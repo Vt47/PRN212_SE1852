@@ -2,7 +2,7 @@
 using System.Data;
 using System.Windows;
 
-namespace Control1
+namespace RadioButtonControl
 {
     /// <summary>
     /// Interaction logic for App.xaml
